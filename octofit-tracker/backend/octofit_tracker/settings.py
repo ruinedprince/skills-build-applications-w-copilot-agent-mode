@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-tg*0dm&dz5he5c6r1ofr^j*p+4j079)h0vpxcaj0z(by3(5!$u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['animated-barnacle-v6v59wq9r4p2xrwx-8000.app.github.dev', 'localhost']
 
 
 # Application definition
