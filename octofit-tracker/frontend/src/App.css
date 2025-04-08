@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Glassmorphism styling */
+body {
+  background: linear-gradient(135deg, #0A090C, #8C1C13);
+  color: #E7D7C1;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Update navbar background to absolute black */
+.navbar {
+  background: #000000; /* Absolute black */
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  color: #eeeeee; /* Light text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #eeeeee !important;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #A78A7F !important;
+}
+
+/* Add logo styling */
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  margin: 1rem;
+  color: #E7D7C1;
+}
+
+.card-title {
+  color: #BF4342;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Style tables */
+.table {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  overflow: hidden;
+  color: #E7D7C1;
+}
+
+.table th {
+  background-color: #8C1C13;
+  color: #E7D7C1;
+}
+
+.table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Style buttons */
+button {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #E7D7C1;
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Style links */
+a {
+  color: #BF4342;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #A78A7F;
+}
+
+/* Style headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #E7D7C1;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
